@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login form</title>
+</head>
+<body>
+    <center>
+        <p id="container"></p>
+        <section class="container">
+            <p class="action_txt">Login</p>
+            <form action="">
+                <input id="login_email" type="text" placeholder="Email or Username" autocomplete="username" required>
+                <div class="passwordContainer">
+                    <input id="password" type="password" placeholder="Password" required>
+                
+                    <div id="icon" class="icon"><img src="images/view.png" alt="Show/ hide password"></div>
+                </div>
+                <p class="forgot_pswd"><a href="http://login.html" target="_blank" rel="noopener noreferrer">Forgot password?</a>
+                    <br>
+                <button id="loginBtn" class="actionBtn login_btn" type="button">Login</button>
+                </p>
+                <span class="description signup_option">Don't have an account? <a href="signup.html"> Signup</a></span>
+            </form>
+        </section>
+    </center>
+    <script src="app.js"></script>
+</body>
+</html>

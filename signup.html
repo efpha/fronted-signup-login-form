@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Signup page</title>
+</head>
+<body>
+    <center>
+        <p id="container"></p>
+        <section class="container">
+            <p class="action_txt">Signup</p>
+            <input type="email" name="email" id="signup_email" placeholder="Email" autocomplete="email" required>
+            <input type="password" name="password" id="sigunp_password" placeholder="Create password" required>
+            <div class="passwordContainer">
+                <input type="password" name="sigunp_confirm_password" id="confirm_sigunp_password" placeholder="Confirm password" required>
+                <div id="icon" class="icon"><img src="images/view.png" alt="Show/hide icon" srcset=""></div>
+            </div>
+            <span id="ale_rt" class="description"></span>
+            <button id="signupBtn" class="actionBtn signup_btn" type="button">Signup</button>
+            <span class="description login_option">Already have an account? <a href="login.html">Login</a></span>
+        </section>
+    </center>
+    <script src="app.js"></script>
+</body>
+</html>
